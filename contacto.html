@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilocontacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Tsukimi+Rounded&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="principal">
+        <header>
+            <h1 id="titulo">Bienvenidos a Neonwaves</h1>
+            <h2 id="subtitulo">El Sushi Con Estilo y Sabor Brillante!</h2>
+            <a href="index.html"><img id="logo" src="imagenes/LogotipoNeonwavetransparent.png" alt="Logotipo Neonwave suchi bar"></a>
+
+
+        </header>
+        <nav>
+            <a href="index.html"><b>Home</b></a>
+            <a href="Menu.html"><b>Menú</b></a>
+            <a href="sobrenosotros.html"><b>Nosotros</b></a>
+            <a href="contacto.html"><b>Contáctanos</b></a>
+        </nav>
+        <h1 id="titulocontacto">contactanos</h1>
+        <form action="archivo.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Nombre:</label></td>
+                    <td><input id="name" type="text" placeholder="nombre(s)" required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Apellido:</label></td>
+                    <td><input id="lastname" type="text" placeholder="Apellido(s)" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">E-mail</label></td>
+                    <td><input type="email" name="mail" id="mail" placeholder="E-mail" required></td>
+                </tr>
+                <tr>
+                    <td class="mens"><label for="mensaje">Mensaje:</label></td>
+                    <td><textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="borrar"></td>
+                    <td><input type="submit" value="enviar"></td>
+                </tr>
+            </table>
+        </form>
+
+        <footer>
+            <img id="logofooter" src="imagenes/LogotipoNeonwavetransparent.png"> 
+                   <h2>Navegacion</h2>
+                   <br><br>
+                   <ul>
+                   <li><a class="footer" href="index.html"><b>Home</b></a></li>
+                   <li></li><a  class="footer" href="Menu.html"><b>Menú</b></a></li>
+                   <li> <a  class="footer" href="sobrenosotros.html"><b>Nosotros</b></a></li>
+                   <li></li><a  class="footer" href="contacto.html"><b>Contáctanos</b></a></li>
+                   </ul>
+       </footer>
+
+    </main>
+   
+</body>
+
+</html>

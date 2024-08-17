@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #19072A;
+}
+#principal {
+    width: 1366px;
+    height: 1800px;
+    margin: auto;
+    background-color: #19072A;
+}
+header {
+    width: 1366px;
+    height: 200px;
+    background-color: #19072A;
+    font-family: "Tsukimi Rounded", sans-serif;
+}
+
+#logo {
+    width: 180px;
+    padding: 8px;
+    position: absolute;
+}
+
+#titulo {
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+    color: rgb(255, 142, 227);
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px;
+}
+#subtitulo {
+    text-align: center;
+    position: absolute;
+    margin-left: 480px;
+    color: #ff8ee3;
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px;
+    margin-top: 100px;
+}
+
+
+nav {
+    width: 1366px;
+    height: 60px;
+    background-color: #19072A;
+    display: inline-block;
+    font-family: "Tsukimi Rounded", sans-serif;
+    border-bottom: #ff8ee3 5px dotted;
+}
+nav a{
+    text-decoration: none;
+    transition: .5s ease;
+    position: relative;
+    font-size: 30px;
+    padding: 25px;
+    top: 13px;
+    left: 650px;
+}
+nav a:nth-child(1){
+    color: rgb(255, 142, 227);
+}
+nav a:nth-child(1):hover{
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px,
+    2px 1px 10px rgb(255, 18, 192);
+}
+nav a:nth-child(2){
+    color: rgb(167, 223, 255);
+}
+nav a:nth-child(2):hover{
+    text-shadow: rgb(0, 174, 255) 2px 1px 5px,
+    2px 1px 10px rgb(0, 174, 255);
+}
+nav a:nth-child(3){
+    color: rgb(255, 142, 227);
+}
+nav a:nth-child(3):hover{
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px,
+    2px 1px 10px rgb(255, 18, 192);
+}
+nav a:nth-child(4){
+    color: rgb(167, 223, 255);
+}
+nav a:nth-child(4):hover{
+    text-shadow: rgb(0, 174, 255) 2px 1px 5px,
+    2px 1px 10px rgb(0, 174, 255);
+}
+section{
+    width: 1000px;
+    height: 330px;
+    background-color: #ff8ee346;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    border-bottom: 4px ridge rgb(204, 40, 169);
+    border-top: 4px ridge rgb(204, 40, 169);
+    margin: 15px;
+ display: inline-block;
+    position: relative;
+    overflow: hidden;
+    font-family: "Tsukimi Rounded", sans-serif;
+    color: rgb(167, 223, 255);
+
+}
+.info{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    color: rgb(167, 223, 255);
+    bottom: -220px;
+    background-color: rgba(0, 0, 0, 0.76);
+    transition: .5s;
+    padding: 10px;
+    font-family: "Tilt Neon", sans-serif;
+    font-size: small;
+    
+}
+.info:hover{
+  bottom: -20px;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+
+footer{
+    border-top: aqua 6px ridge;
+    height: 300px;
+    width: 1316px;
+    padding: 25px;
+    margin-top: 50px;
+}
+footer h2{
+    margin-left: 350px;
+    font-family: "Tsukimi Rounded", sans-serif;
+    color: white;
+    float: left;
+}
+footer img{
+    float: left;
+    border-bottom: none;
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    padding: 8PX;
+    color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 350px;
+    font-size: 20px;
+    font-family: "Tsukimi Rounded", sans-serif;
+    border-left: #FA207E 6px ridge;
+}
+footer ul{
+    list-style-type: none;
+}

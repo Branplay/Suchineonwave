@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #19072A;
+}
+#principal {
+    width: 1366px;
+    height: 1800px;
+    margin: auto;
+    background-color: #19072A;
+}
+
+header {
+    width: 1366px;
+    height: 200px;
+    background-color: #19072A;
+    font-family: "Tsukimi Rounded", sans-serif;
+}
+
+#logo {
+    width: 180px;
+    padding: 8px;
+    position: absolute;
+}
+
+#titulo {
+    text-align: center;
+    position: absolute;
+    margin-left: 500px;
+    color: rgb(255, 142, 227);
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px;
+}
+
+#subtitulo {
+    text-align: center;
+    position: absolute;
+    margin-left: 480px;
+    color: #ff8ee3;
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px;
+    margin-top: 100px;
+}
+
+nav {
+    width: 1366px;
+    height: 60px;
+    background-color: #19072A;
+    display: inline-block;
+    font-family: "Tsukimi Rounded", sans-serif;
+    border-bottom: #ff8ee3 5px dotted;
+}
+nav a{
+    text-decoration: none;
+    transition: .5s ease;
+    position: relative;
+    font-size: 30px;
+    padding: 25px;
+    top: 13px;
+    left: 650px;
+}
+nav a:nth-child(1){
+    color: rgb(255, 142, 227);
+}
+nav a:nth-child(1):hover{
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px,
+    2px 1px 10px rgb(255, 18, 192);
+}
+nav a:nth-child(2){
+    color: rgb(167, 223, 255);
+}
+nav a:nth-child(2):hover{
+    text-shadow: rgb(0, 174, 255) 2px 1px 5px,
+    2px 1px 10px rgb(0, 174, 255);
+}
+nav a:nth-child(3){
+    color: rgb(255, 142, 227);
+}
+nav a:nth-child(3):hover{
+    text-shadow: rgb(255, 18, 192) 2px 1px 5px,
+    2px 1px 10px rgb(255, 18, 192);
+}
+nav a:nth-child(4){
+    color: rgb(167, 223, 255);
+}
+nav a:nth-child(4):hover{
+    text-shadow: rgb(0, 174, 255) 2px 1px 5px,
+    2px 1px 10px rgb(0, 174, 255);
+}
+section {
+    width: 1366px;
+    height: 1400px;
+    background-color: #19072A;
+}
+
+
+#titulocontacto{
+    font-family: "Tsukimi Rounded", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-shadow: rgb(244, 252, 0) 0px 0px 5px;
+}
+
+table{
+    width: 700px;
+    height: auto;
+    color: white;
+    background-color: #FA207E;
+    padding: 10px;
+    font-family: tilt neon;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: white 0 0 10px;
+}
+
+table td:nth-child(1){
+    width: 150px;
+    height: auto;
+    text-align: right;
+
+}
+
+table td:nth-child(2){
+    width: 250px;
+    height: auto;
+
+}
+input, textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+input[type="text"],input[type="email"]{
+    padding: 5px; /*el padding es obligatorio*/
+    box-shadow: 1px 1px 2px #00000000;
+    border-bottom: 2px solid rgba(16, 3, 27, 0);
+    font-family: tilt neon;
+    font-size: 20px;
+}
+
+textarea {
+    padding: 5px; 
+    box-shadow: 1px 1px 2px #00000000;
+    border-bottom: 2px solid rgba(0, 128, 128, 0);
+    resize: none;
+}
+
+input[type="text"]:focus,input[type="email"]:focus, textarea:focus {
+    background-color: #fcf4c4;
+    font-family: tilt neon;
+    font-size: 20px;
+}
+input[type="submit"] {
+    background-color: rgb(243, 247, 0);
+    color: rgb(34, 0, 55);
+    padding: 5px;
+    font-family: tilt neon;
+    font-size: 20px;
+}
+
+input[type="reset"] {
+    background-color: #00b3f4f4;
+    color: rgb(243, 255, 255);
+    padding: 5px;
+    font-family: tilt neon;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #e1b000;
+    box-shadow: 0px 0px 5px #eeff00;
+ 
+}
+
+input[type="reset"]:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #00fff2;
+    color: #00aad4;
+
+}
+input[type="reset"]:active {
+    background-color: #719696;
+
+}
+.mens {
+    vertical-align: top;
+}
+
+footer{
+    border-top: aqua 6px ridge;
+    margin-top: 800px;
+    background-color: #19072A;
+    height: 300px;
+    width: 1366px;
+    padding: 25px;
+}
+footer h2{
+    margin-left: 350px;
+    font-family: "Tsukimi Rounded", sans-serif;
+    color: white;
+    float: left;
+}
+footer img{
+    float: left;
+    border-bottom: none;
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    padding: 8PX;
+    color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 350px;
+    font-family: "Tsukimi Rounded", sans-serif;
+    border-left: #FA207E 6px ridge;
+    font-size: 25px;
+}
+footer ul{
+    list-style-type: none;
+}
+
